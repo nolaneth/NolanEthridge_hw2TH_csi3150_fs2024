@@ -8,17 +8,36 @@
       href="../assets/img/terminal-regular-24.png"
     />
     <title>Nolan Ethridge Portfolio Website</title>
+    <!-- link css file-->
+    <link rel="stylesheet" href="../css/single_portfolio_style.css" />
   </head>
   <body>
     <header>
       <!--important headings-->
-      <h1>Nolan Ethridge Portfolio Website</h1>
-      <h2>Some fun facts about me</h2>
-      <h3>Navigation Menu</h3>
-      <!--include below-->
-      <h4><a href="../index.html">Home</a></h4>
-      <h4><a href="../html/my_resume.html">Resume</a></h4>
-      <h4><a href="../html/my_fun_facts.html">Fun Facts</a></h4>
+      <div class="title"><h1>Nolan Ethridge Portfolio Website</h1></div>
+      <header class="navbar">
+        <!--include below-->
+        <!-- logo -->
+        <div class="logo">
+          <img src="../assets/img/terminal-regular-24.png" />
+        </div>
+        <nav class="navbar-center">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/my_resume.html">Resume</a></li>
+            <li><a href="../html/my_fun_facts.html">Fun Facts</a></li>
+          </ul>
+
+          <div class="contact-button">
+            <a
+              class="cta-button"
+              href="https://www.linkedin.com/in/nolanethridge/"
+              >Reach Out</a
+            >
+          </div>
+        </nav>
+      </header>
+      <div class="title">Some fun facts about me</div>
     </header>
     <main>
       <!--favorite book-->
@@ -84,8 +103,10 @@
       <hr />
       <!--line break for copywrite info-->
       <p>© 2024 Nolan Ethridge. All rights reserved.</p>
-      <p>nolan.ethridge@gmail.com</p>
-      <p>GitHub: nolan_eth</p>
+      <p>
+        <a href="mailto:nolan.ethridge@gmail.com">nolan.ethridge@gmail.com</a>
+      </p>
+      <p><a href="https://github.com/nolaneth">GitHub</a></p>
     </footer>
   </body>
 </html>

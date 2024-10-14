@@ -1,0 +1,163 @@
+/* styles for header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centers items vertically */
+  padding: 20px;
+  background-color: #70151575; /*background color*/
+}
+
+/*logo */
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  height: 80px;
+  width: 80px;
+}
+
+/* Navbar styles */
+nav {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/*contact button */
+.contact-button {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* right side */
+}
+
+/*Contact button colors*/
+.contact-button .cta-button {
+  background-color: #ffffff; /*button color */
+  color: rgb(0, 0, 0); /*text color*/
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: 2px solid #333;
+  font-size: 18px;
+}
+
+/*button hover color*/
+.contact-button .cta-button:hover {
+  background-color: #a51c1c; /* Darken button on hover */
+}
+
+/*navagation text basics*/
+nav a {
+  text-decoration: none;
+  color: #ffffff; /* Default link color */
+  transition: color 0.3s; /* Transition for color change */
+  font-size: 28px;
+}
+
+/*navagation hover*/
+nav a:hover {
+  color: #f82b2b; /* Change color on hover */
+}
+
+/*circular image */
+.image-round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.image-round img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover;
+}
+
+/*body color*/
+body {
+  background: linear-gradient(to top, #beb9b8, #a51c1c);
+}
+
+/*base text styles*/
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/*headings*/
+/*main heading*/
+h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/*sub heading*/
+h3 {
+  font-size: 30px;
+  color: #eeeeee;
+  margin: 10px 0;
+}
+
+/*blockquote */
+blockquote {
+  font-size: 24px;
+  font-style: italic;
+  margin: 20px 0; /*space above and below */
+  padding-left: 15px;
+  border-left: 4px solid #a51c1c; /*line on the left */
+}
+
+/*paragraphs */
+p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/*links */
+a {
+  color: #a51c1c;
+  text-decoration: none; /*remove underline */
+}
+
+/*on link hover*/
+a:hover {
+  text-decoration: underline; /*underline on hover */
+  color: #0091ff;
+}
+
+/* Classes for titles and subtitles */
+/*title size*/
+.title {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*subtitle size*/
+.subtitle {
+  font-size: 28px;
+  color: #cbcbcb;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
